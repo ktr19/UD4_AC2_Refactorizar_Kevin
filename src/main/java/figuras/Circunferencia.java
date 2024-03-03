@@ -4,6 +4,7 @@ public class Circunferencia {
 
     private double radio;
     private String color;
+    private final double Pi = Math.PI;
 
     /**
      * @return the radio
@@ -28,7 +29,7 @@ public class Circunferencia {
         double d=2 * getRadio();
         System.out.println("Di�metro: " + d);
         System.out.println("Color: " + color);
-        double area = 2 * 3.1416 * getRadio() * getRadio();
+        double area = 2 * Pi * getRadio() * getRadio();
         System.out.println(area);
     }
     
