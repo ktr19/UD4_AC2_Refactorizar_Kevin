@@ -33,10 +33,10 @@ public class Circunferencia {
         System.out.println(area);
     }
     
-    public boolean esIgual(Circunferencia otro, boolean conDecimales) {
+    public boolean esIgual(boolean considerarDecimales, Circunferencia otro) {
         double radio1 = this.getRadio();
         double radio2 = otro.getRadio();
-        if (conDecimales) {
+        if (considerarDecimales) {
             if (radio1 == radio2) {
                 return true;
             } else {
