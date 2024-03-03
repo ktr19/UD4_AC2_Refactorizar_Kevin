@@ -28,7 +28,7 @@ public class Circunferencia {
         this.color = "rojo";
         System.out.println("Di�metro: " + 2 * getRadio());
         System.out.println("Color: " + color);
-        double area =calcularArea();
+        double area =Pi * getRadio() * getRadio();
         System.out.println(area);
     }
     
@@ -49,7 +49,4 @@ public class Circunferencia {
             }
         }
     }
-    public double calcularArea() {
-    return Pi * getRadio() * getRadio();
-}
 }
