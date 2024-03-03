@@ -29,7 +29,7 @@ public class Circulo {
         double area = 2 * 3.1416 * getRad() * getRad();
         System.out.println(area);
     }
-
+    
     public boolean esIgual(Circulo otro, boolean conDecimales) {
         double radio1 = this.getRad();
         double radio2 = otro.getRad();
