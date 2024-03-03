@@ -29,7 +29,7 @@ public class Circunferencia {
         double d=2 * getRadio();
         System.out.println("Di�metro: " + d);
         System.out.println("Color: " + color);
-        double area = 2 * Pi * getRadio() * getRadio();
+        double area =calcularArea();
         System.out.println(area);
     }
     
@@ -50,4 +50,7 @@ public class Circunferencia {
             }
         }
     }
+    public double calcularArea() {
+    return Pi * getRadio() * getRadio();
+}
 }
